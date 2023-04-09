@@ -1,0 +1,57 @@
+@media screen and (max-width: 800px) {
+    body {
+        background-color: #EEF1EF;
+        color: #1C2321;
+        font-family: "微軟正黑體";
+    }
+
+    box1 { 
+        display: flex;
+        background-color: #ca67de;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1% ;
+        text-align: center;
+      }
+      
+
+
+
+    input {
+        width: 98%;
+        height: 30px;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-bottom: 2px;
+    }
+
+    .box button{
+        border: 1px gray; 
+        width: 99.5%;
+        height: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        vertical-align: middle;
+        background-color: #ca67de;
+        color:#1C2321 ;
+    }
+
+    .obj{
+        justify-content: center;
+    }
+    .obj h2{
+        font-size: 18px;
+    }
+    
+    .obj button{ 
+        border: 1px solid #ca67de;
+        border-radius: 10px;
+        height: 120px;
+        width: 360px;
+        font-size: 14px;
+        text-align: center;
+        margin: 10px auto;
+        display: block;
+    };
+}
